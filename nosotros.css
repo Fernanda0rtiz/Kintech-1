@@ -1,0 +1,249 @@
+@font-face {
+
+    font-family: Pixels;
+    src: url("fonts/pixels.ttf")
+    
+}
+
+@font-face {
+
+    font-family: clasica;
+    src: url("fonts/Quicksand-VariableFont_wght.ttf")
+    
+}
+
+@font-face {
+
+    font-family: Pacman;
+    src: url("fonts/Pac\ man.otf")
+    
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body
+{
+    color: rgb(250, 245, 245);
+    font-family: clasica;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgb(11, 0, 75), rgb(2, 2, 2))
+}
+
+
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: spaace-between;
+    align-items: center;
+
+}
+
+header ul 
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header ul li 
+{
+    list-style: none;
+    margin-left: 30px
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover
+{
+    background: white;
+    color: black;
+    font-family: Pixels;
+}
+
+
+h1 
+{
+    font-family: Pixels;
+    font-size: 2rem;
+    margin-right: 500px;
+}
+
+.introduccion{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margen {
+    margin-top: 130px;
+}
+
+h2 {
+ font-family: Pixels;
+ text-align: center;
+ font-size: 3rem;
+ color: rgb(255, 234, 79);
+ padding: 20px;
+}
+
+
+
+
+p {
+    font-family: clasica;
+    text-align: justify;
+}
+
+.box{
+    display: flex;
+    margin: 100px 200px;
+    grid-gap: 35px;
+    box-shadow: 0 1px 6px 1px white;
+    overflow: hidden;
+    transition: .2s;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.box:hover{
+    transform: translate(-4px);
+    box-shadow: 0 1px 14px 2px rgba(223, 167, 25, 0.15);
+}
+
+.persona {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: Pixels;
+
+}
+
+.imgnosotros{
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+   
+}
+
+.descripcion{
+    text-align: justify;
+    font-size: 20px;
+    grid-gap: 15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.nosotross {
+    font-family: Pacman;
+    font-size: 4rem;
+}
+
+
+
+footer {
+    background-color: #fadf2a;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.content.terms{
+    max-width: 350px;
+
+    color: #000000;
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer h3{
+    color: #1329f0;
+    text-align: left;
+}
+
+.content .menu {
+    color:#1329f0;
+    text-align: left;
+}
+
+.content a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: left;
+}
+
+.content a:hover{
+    opacity: 0.6;
+    font-family: pixels;
+}
+
+.contenta .fab{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.content a .fas{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.piedepagina {
+
+    color: rgb(0, 0, 0);
+    font-family: clasica;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.programadores {
+    text-align: center;
+}

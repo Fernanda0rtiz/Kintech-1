@@ -1,0 +1,236 @@
+@font-face {
+
+    font-family: Pixels;
+    src: url("fonts/pixels.ttf")
+    
+}
+
+@font-face {
+
+    font-family: clasica;
+    src: url("fonts/Quicksand-VariableFont_wght.ttf")
+    
+}
+
+@font-face {
+
+    font-family: Pacman;
+    src: url("fonts/Pac\ man.otf")
+    
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: clasica;
+}
+
+
+body
+{
+    color: rgb(250, 245, 245);
+    font-family: clasica;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgb(11, 0, 75), rgb(2, 2, 2))
+}
+
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: spaace-between;
+    align-items: center;
+
+}
+
+header ul 
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header ul li 
+{
+    list-style: none;
+    margin-left: 30px
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover
+{
+    background: white;
+    color: black;
+    font-family: Pixels;
+}
+
+
+
+h1 
+{
+    font-family: Pixels;
+    font-size: 2rem;
+    margin-right: 500px;
+}
+
+.comprar {
+    margin-top: 200px;
+    margin-left: 500px;
+    text-align: center;
+    font-family: Pacman;
+    font-size: 4rem;
+    color: rgb(248, 223, 29);
+}
+
+.producto {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+
+
+}
+
+.box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+
+.info {
+    
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+
+.venta {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    font-family: Pacman;
+}
+
+.precio {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    border: 1px solid rgb(214, 189, 63);
+    color: rgb(214, 189, 63);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    font-family: Pixels;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+.compras {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #fadf2a;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.content.terms{
+    max-width: 350px;
+
+    color: #000000;
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer h3{
+    color: #1329f0;
+    text-align: left;
+}
+
+.content .menu {
+    color:#1329f0;
+    text-align: left;
+}
+
+.content a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: left;
+}
+
+.content a:hover{
+    opacity: 0.6;
+    font-family: pixels;
+}
+
+.contenta .fab{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.content a .fas{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.piedepagina {
+    color: rgb(0, 0, 0);
+    font-family: clasica;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}

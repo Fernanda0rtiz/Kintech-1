@@ -1,0 +1,218 @@
+@font-face {
+
+    font-family: Pixels;
+    src: url("fonts/pixels.ttf")
+}
+
+@font-face {
+
+    font-family: clasica;
+    src: url("fonts/Quicksand-VariableFont_wght.ttf")
+}
+
+@font-face {
+
+    font-family: Pacman;
+    src: url("fonts/Pac\ man.otf")
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: clasica;
+}
+
+
+body {
+    color: rgb(250, 245, 245);
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(149, 204, 236), rgb(233, 249, 111))
+}
+
+
+h1 {
+    font-family: Pixels;
+    font-size: 2rem;
+    margin-right: 500px;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: spaace-between;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 30px
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover {
+    background: white;
+    color: black;
+    font-family: Pixels;
+}
+.kin {
+    font-family: Pixels;
+    color: white;
+}
+
+
+.juego {
+    margin-top: 200px;
+    font-family: Pacman;
+    font-size: 4rem;
+    color: rgb(239, 143, 25);
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.pausar {
+    text-align: center;
+    color: black;
+    font-family: pixels;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+#pacman {
+    height: 700px;
+    width: 600px;
+    border-radius: 5px gray;
+    margin: 20px auto;
+}
+
+
+footer {
+    background-color: #a7eaff;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.content.terms{
+    max-width: 350px;
+
+    color: #000000;
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer h3{
+    color: #1329f0;
+    text-align: left;
+}
+
+.content .menu {
+    color:#1329f0;
+    text-align: left;
+}
+
+.content a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: left;
+}
+
+.content a:hover{
+    opacity: 0.6;
+    font-family: pixels;
+}
+
+.contenta .fab{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.content a .fas{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.piedepagina {
+    color: rgb(0, 0, 0);
+    font-family: clasica;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos específicos para diferentes tamaños de pantalla */
+@media (min-width: 768px) {
+    /* Pantallas medianas y grandes */
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Pantallas grandes */
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Pantallas extra grandes */
+    .container {
+        max-width: 1200px;
+    }
+}
